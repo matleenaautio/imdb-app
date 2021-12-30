@@ -10,8 +10,6 @@ $sql = "SELECT `primary_title`
     WHERE titles.title_id = had_role.title_id
     AND had_role.name_id = names_.name_id
     AND name_ LIKE '%" . $name_ . "%' 
-    GROUP BY titles.title_id 
-    ORDER BY name_ DESC
     LIMIT 20;";
 
 // Tarkistukset yms

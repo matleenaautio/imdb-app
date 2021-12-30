@@ -1,6 +1,6 @@
 <?php
 
-// form.phpssa käyttöliittymä, ei tulosta, mutta hakee tiedot dropdown -valikkoihin
+// form.php:ssa käyttöliittymä kokeily, ei tulosta hakutuloksia, mutta hakee tiedot dropdown -valikkoihin
 
 require_once('functions.php');
 
